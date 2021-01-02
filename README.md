@@ -1,2 +1,2 @@
 # Config
-Configs for linux programs
+Configs for minimal linux programs
