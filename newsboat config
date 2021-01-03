@@ -1,3 +1,6 @@
+#actions
+auto-reload yes
+
 #theme
 
 color listnormal cyan default
