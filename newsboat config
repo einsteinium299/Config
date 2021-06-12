@@ -2,20 +2,16 @@
 auto-reload yes
 
 #theme
-
-color listnormal cyan default
+color listnormal green default
 color listfocus black yellow standout bold
-color listnormal_unread blue default
+#color listfocus blue default reverse bold
+color listnormal_unread green default
+#color listnormal_unread yellow default
 color listfocus_unread yellow default bold
+#color listfocus_unread blue default reverse bold
 color info red black bold
 color article cyan default
-
-
 color info default default reverse
-#color listnormal_unread yellow default
-#color listfocus blue default reverse bold
-#color listfocus_unread blue default reverse bold
-
 
 #navigation
 bind-key j down feedlist
@@ -26,7 +22,10 @@ bind-key J next-feed articlelist
 bind-key K prev-feed articlelist
 bind-key j down article
 bind-key k up article
+bind-key g home
+bind-key G end
+bind-key l open
+bind-key h quit
 
 #display
-
 text-width 80
